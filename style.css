@@ -1,0 +1,123 @@
+.picture{
+    background-image:url(Image/nyc1.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.picture2{
+    background-image:url(Image/nyc5.jpg);
+    width: 90%;
+    height: 90vh;
+    background-size:contain;
+    background-position: center;
+}
+.picture3{
+    background-image:url(Image/nyc6.jpg);
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    
+    list-style-type: none;
+    padding-left: 10%;
+}
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li img{
+    width: 320px;
+    height: 500px;
+}
+ul li p a{
+    text-decoration: none;
+    color: rgb(133, 172, 245);
+}
+.Menu{
+    background-color: rgb(5, 4, 4);
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.border{
+    background-color: hsl(246, 99%, 32%);
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    color: white;
+}
+a{
+    color: rgb(97, 97, 252);
+    text-decoration:none;
+
+}
+h1{
+   color: white; 
+   text-align: center;
+   font-size: 60px;
+   padding-top: 20%;
+}
+.button{
+    float: right;
+    color: white;
+    background-color: rgb(55, 0, 255);
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10%;
+    padding: 15px 20px 15px 20px;
+    margin-bottom: 10px;
+   
+}
+.logo{
+    float: left;
+    color: #fff;
+    text-decoration: none;
+     margin-right: 20%;
+     font-size: 20px;
+}
+.button1{
+    
+    color:black;
+    background-color: rgb(156, 147, 185);
+    border-radius: 20px;
+    text-decoration: none;
+    margin-right: 10%;
+    padding: 20px 20px 15px 20px;
+    margin-bottom: 10px;
+    width: 500px;
+    float: center;
+}
+.Icon:before{
+    width: 50px;
+    content: "\e04a";
+}
+.row{
+    margin-left: 100px;
+    background-color: rgb(248, 246, 246);
+    text-emphasis-color: black;
+}
+.row3{
+    display: inline-block;
+    align-content: center;
+}
+.column-4{
+    float: left;
+    width: 30%;
+    padding-left: 250px;
+}
+.column-5{
+    float: left;
+    width: 30%;
+    padding-left: 100px;
+}
+id:hover{
+    transition: 2s;
+}
